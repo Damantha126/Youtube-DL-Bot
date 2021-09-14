@@ -1,29 +1,40 @@
 {
-  "name": "YouTube Downloader Bot",
-  "description": "A telegram bot To Download Youtube Files ",
-  "logo": "https://telegra.ph/file/3db812d9dcf60ab1a5997.jpg",
-  "keywords": [
-    "Youtube","YoutubeDownloader"
-  ],
-  "repository": "https://github.com/Damantha126/Youtube-Downloader-Bot",
-  "success_url": "https://damantha.ga",
-  "website": "https://damantha.tk",
-  "env": {
-        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
-        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true}
-  },
-      "buildpacks": [
-        {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
-        {"url": "heroku/python"}
+    "name": "Telegraph Bot",
+    "description": "A bot that can upload photos and video to telegraph.",
+    "logo": "https://telegra.ph/file/3db812d9dcf60ab1a5997.jpg",	
+    "keywords": [
+        "youtube",
+        "Uploader",
+        "Telegram Bot",
+        "DT Bots"
     ],
-  "formation": {
+    "website": "https://Damantha.tk/web",
+    "repository": "https://github.com/Damantha126/DT-TelegraphBot",
+    "success_url": "https://t.me/slbotzone",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
         "worker": {
             "quantity": 1,
             "size": "free"
         }
-    },
-      "stack": "heroku-20"
-
-
+    }
 }
