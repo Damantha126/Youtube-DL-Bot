@@ -12,7 +12,7 @@
     "repository": "https://github.com/Damantha126/DT-TelegraphBot",
     "success_url": "https://t.me/slbotzone",
     "env": {
-        "TG_BOT_TOKEN": {
+        "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
             "value": ""
         },
@@ -20,7 +20,7 @@
             "description": "Your API Hash from my.telegram.org",
             "value": ""
         },
-        "APP_ID": {
+        "API_ID": {
             "description": "Your APP ID from my.telegram.org",
             "value": ""
         }
