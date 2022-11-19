@@ -3,8 +3,6 @@
 # created by Aman Roy
 # Creation Date : 18-Feb-2016
 # Python version used : - Python 3.4.3+ (ported for python2)
-# Please use right spelling to avoid errors
-# All licence belongs to authour.
 
 # Please import all the library used
 import re, urllib, os, sys, argparse,time
