@@ -156,5 +156,6 @@ def main():
         exit(1)
 
 if __name__ == '__main__':
+	print("Test")
     main()  # run the main program
     exit(0)  # exit the program
