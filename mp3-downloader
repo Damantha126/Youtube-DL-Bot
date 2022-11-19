@@ -124,8 +124,6 @@ def exit(code):
     print('\nHave a good day.')
     sys.exit(code)
 
-
-# main guts of the program
 def main():
 	# Check for any flags first
     ap = argparse.ArgumentParser()
